@@ -11,7 +11,8 @@ class HelloController extends BaseController
 	}
 	public function postForm()
 	{
-		return View::make('hello.post', array('name' => Input::get('name')));
+		return Redirect::to('blade');
+		//return View::make('hello.post', array('name' => Input::get('name')));
 	}
 	public function showBlade()
 	{
