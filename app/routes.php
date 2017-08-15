@@ -21,3 +21,4 @@ Route::get('/hello/{name?}','HelloController@showIndex');
 Route::get('/form/','HelloController@showForm');
 Route::post('/form','HelloController@postForm');
 Route::get('/blade','HelloController@showBlade');
+Routes::controller('test','HelloController');
