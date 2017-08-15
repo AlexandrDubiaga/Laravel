@@ -24,7 +24,8 @@ class HelloController extends BaseController
 	}
 	public function postMyForm()
 	{
-			return print_r(Input::all(),true);
+			$val = Session::put('my-form', 'Input::all()');
+			return View::make('session',$val);
 	}
 	
 
