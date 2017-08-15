@@ -18,6 +18,15 @@ class HelloController extends BaseController
 	{
 			return View::make('hello.blade', array('list'=>array(1,2,3,4,5), 'item' =>'my text', 'ival'=>100));
 	}
+	public function getAction()
+	{
+			return View::make('hello.my-form');
+	}
+	public function postMyForm()
+	{
+			return print_r(Input::all(),true);
+	}
+	
 
 
 
