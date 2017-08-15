@@ -1,9 +1,8 @@
 <html>
 <body>
 <form method="POST" action="{{URL::to('test/my-form')}}"
-<input name="name" type="text">
-<input name="pass" type="password">
-<input type="submit">
+<input  type="text" name="name">
+<input type="submit" val="go">
 </form>
 </body>
 </html>
