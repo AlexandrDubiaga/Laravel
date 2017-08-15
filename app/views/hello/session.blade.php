@@ -1,5 +1,5 @@
 <html>
 
-{{{$session}}}
+<?php echo $session;    ?>
 
 </html>
