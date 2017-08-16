@@ -5,7 +5,7 @@ class Track extends Eloquent
   protected $primaryKey = 'TrackId';
    protected function genre()
     {
-        return $this->hasOne('Genre');
+        return $this->hasOne('Genre','GenreId','GenreId');
     }
   
 }
