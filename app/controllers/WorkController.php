@@ -1,3 +1,4 @@
+<?php
 class WorkController extends BaseController
 {
    public function showArtists()
@@ -44,3 +45,4 @@ class WorkController extends BaseController
 
 
 }
+?>
