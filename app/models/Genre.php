@@ -1,9 +1,8 @@
 <?php
-class Genre extendr Eloquent
+class Genre extends Eloquent
 {
-  protected $table = 'Genre';
-  protected $primaryKey = 'GenreId';
+    protected $table='Genre';
+    protected $primaryKey='GenreId';
+
 }
 
-
-?>
